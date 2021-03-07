@@ -46,9 +46,11 @@ packages:
   extended_text_library:
     dependency: "direct main"
     description:
-      path: "plugins/extended_text_library"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "57a980f209579ff2f2d64d2033664eba0b4e347d"
+      url: "https://github.com/fluttercandies/extended_text_library"
+    source: git
     version: "5.0.0"
   fake_async:
     dependency: transitive
